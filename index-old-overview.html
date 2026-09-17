@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrinterExpert | Certified Printer Support & IT Services</title>
+  <meta name="description" content="PrinterExpert (printerexpert.site) provides certified 24/7 printer repair, driver setup, and wireless troubleshooting. Call +1-888-804-7080.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z'/></svg>">
+  <script>
+    // Immediate Global JivoChat Handler (Guarantees zero ReferenceErrors)
+    window._wantsJivoOpen = false;
+    window.openJivoChat = function(e) {
+      if (e && typeof e.preventDefault === 'function') e.preventDefault();
+      if (window.jivo_api && typeof window.jivo_api.open === 'function') {
+        try { window.jivo_api.open(); return; } catch(err) { console.warn(err); }
+      }
+      var jEl = document.getElementById('jivo_container') || 
+                document.querySelector('jdiv[class*="label"], jdiv[class*="button"], jdiv[id*="jivo"], [class*="jivo-btn"]');
+      if (jEl && typeof jEl.click === 'function') {
+        try { jEl.click(); return; } catch(err) {}
+      }
+      window._wantsJivoOpen = true;
+      var attempts = 0;
+      var timer = setInterval(function() {
+        attempts++;
+        if (window.jivo_api && typeof window.jivo_api.open === 'function') {
+          try { window.jivo_api.open(); window._wantsJivoOpen = false; clearInterval(timer); return; } catch(err) {}
+        }
+        var el = document.getElementById('jivo_container') || document.querySelector('jdiv');
+        if (el && typeof el.click === 'function') {
+          try { el.click(); window._wantsJivoOpen = false; clearInterval(timer); return; } catch(err) {}
+        }
+        if (attempts >= 40) clearInterval(timer);
+      }, 100);
+    };
+    window.jivo_onLoadCallback = function() {
+      if (window._wantsJivoOpen && window.jivo_api && typeof window.jivo_api.open === 'function') {
+        window.jivo_api.open();
+        window._wantsJivoOpen = false;
+      }
+    };
+  </script>
+</head>
+<body>
+
+  <!-- Top Urgency / Live Status Ticker -->
+  <div class="top-urgency-bar">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+      <div class="top-urgency-left">
+        <span class="live-beacon"></span>
+        <span><strong>24/7 Printer Helpdesk Active:</strong> Certified Remote Technicians Online</span>
+      </div>
+      <div class="top-urgency-right">
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>Avg Response: Under 45 Seconds</span>
+        <span>•</span>
+        <a href="tel:+18888047080" class="top-urgency-link">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Priority Line: +1-888-804-7080
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="PrinterExpert Home">
+        <img src="images/logo.png" alt="PrinterExpert" class="brand-logo-img">
+      </a>
+
+      <!-- Clean Header Menu: Home, About, Contact Us Only -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="tel:+18888047080" class="phone-quick-cta">
+          <div class="phone-icon-pulse">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          </div>
+          <div>
+            <div style="font-size: 0.7rem; color: var(--primary-dark); font-weight: 500;">TOLL-FREE 24/7 HELPLINE</div>
+            <div style="font-weight: 800; color: var(--navy-900);">+1-888-804-7080</div>
+          </div>
+        </a>
+        <a href="tel:+18888047080" class="btn btn-accent btn-sm">Call Now</a>
+        <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-sm" aria-label="Start Live Chat">
+          <span class="btn-chat-live-dot"></span>
+          <svg class="btn-chat-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <span>Live Chat</span>
+        </button>
+        <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Simplified Interactive Diagnostic Tool -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge badge-dark">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          CERTIFIED 24/7 PRINTER & IT SUPPORT
+        </div>
+        <h1 class="hero-title">
+          Immediate <span class="text-gradient">Printer Repair</span> & Driver Solutions
+        </h1>
+        <p class="hero-desc">
+          Certified technicians resolve printer offline errors, Wi-Fi connectivity drops, driver faults, and paper jams remotely in minutes. Guaranteed fix with upfront pricing.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="tel:+18888047080" class="btn btn-accent btn-lg btn-pulse">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call Now: +1-888-804-7080
+          </a>
+          <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg" aria-label="Chat with Technician">
+            <span class="btn-chat-live-dot"></span>
+            <svg class="btn-chat-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            <span>Chat with Tech</span>
+          </button>
+          <a href="#troubleshooter" class="btn btn-outline-white btn-lg">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            Instant Diagnostic
+          </a>
+        </div>
+
+        <div class="hero-guarantees">
+          <div class="guarantee-item">
+            <span class="guarantee-icon">✓</span> 100% Fixed or No-Fee
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">✓</span> Zero Hidden Charges
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">✓</span> 24/7 Live Assistance
+          </div>
+        </div>
+      </div>
+
+      <!-- Simplified & Intuitive Diagnostic Tool -->
+      <div class="hero-card" id="troubleshooter">
+        <div class="hero-card-header">
+          <div class="badge badge-amber">Instant Diagnostic Tool</div>
+          <h3>Select your printer symptom</h3>
+          <p>Click below for an immediate cause & step-by-step resolution</p>
+        </div>
+
+        <div class="troubleshoot-options">
+          <button class="troubleshoot-btn active" data-issue="offline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line></svg>
+            Printer Offline
+          </button>
+          <button class="troubleshoot-btn" data-issue="wifi">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+            Wi-Fi / Setup
+          </button>
+          <button class="troubleshoot-btn" data-issue="driver">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            Driver Missing
+          </button>
+          <button class="troubleshoot-btn" data-issue="paperjam">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+            Jam / Feed Error
+          </button>
+        </div>
+
+        <div class="troubleshoot-result">
+          <div class="diag-status-row">
+            <div class="diag-status-badge">
+              <span class="diag-status-dot"></span> Diagnosis: Identified
+            </div>
+            <span class="diag-eta" id="troubleshootEta"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>Avg fix: 5 mins</span>
+          </div>
+          <h4 id="troubleshootTitle">Printer Offline / Not Responding</h4>
+          <p id="troubleshootDesc">
+            Usually caused by stuck print spoolers, IP address lease changes, or communication port mismatches between your computer and printer.
+          </p>
+          <ul class="troubleshoot-steps" id="troubleshootSteps">
+            <li><span>✓</span> Restart print spooler service in Windows/Mac</li>
+            <li><span>✓</span> Verify printer IP address matches TCP/IP port</li>
+            <li><span>✓</span> Speak to our technician for an immediate remote fix</li>
+          </ul>
+        </div>
+
+        <div class="troubleshoot-actions">
+          <a href="tel:+18888047080" class="btn btn-accent btn-sm">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call Tech for Quick Fix
+          </a>
+          <a href="tel:+18888047080" class="btn btn-outline-white btn-sm">
+            Speak to Specialist
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Supported Categories Strip with Independent Disclaimer (No Official Brand Names) -->
+  <section class="brand-strip">
+    <div class="container">
+      <div class="brand-strip-title">Universal Technical Support Across All Printer Categories & Hardware Types</div>
+      <div class="brand-logos-grid">
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Laser & Thermal Printers
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Inkjet & All-in-One Systems
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Eco-Tank & Continuous Ink
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          High-Speed Office Copiers
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Commercial Label & Barcode
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Wireless Network Hubs
+        </div>
+      </div>
+
+      <div class="disclaimer-box">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        <div>
+          <strong>Disclaimer:</strong> PrinterExpert (printerexpert.site) is an independent third-party technology service provider. All device descriptions, hardware models, and technical terminology on this website are used purely for general descriptive and functional identification purposes.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Performance Metrics / Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">500<span>+</span></div>
+          <div class="stat-label">Printers Repaired & Configured</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">98<span>%</span></div>
+          <div class="stat-label">Customer Satisfaction Rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">24<span>/7</span></div>
+          <div class="stat-label">Support Availability & Response</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1,000<span>+</span></div>
+          <div class="stat-label">Issues Resolved Remotely</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive Services Section with Professional SVG Icons -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Our Core Services</div>
+        <h2 class="section-title">End-to-End Printer & Technology Solutions</h2>
+        <p class="section-subtitle">
+          From residential desktop printers to multi-node office fleets, we provide reliable, fast, and scalable technology solutions to keep your business operating smoothly.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: Hardware & Device Repair -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Device Repair & Technical Support</h3>
+          <p class="service-desc">
+            Expert repair services for laptops, desktops, printers, and workstations. We handle hardware errors, paper jams, printhead alignment, and performance optimization with fast turnaround time.
+          </p>
+          <ul class="service-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Hardware diagnostics & mechanical fix</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Paper feeder roller replacement</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Printhead clearing & cartridge alignment</li>
+          </ul>
+          <a href="services.html" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 2: Wireless & Network Setup -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+              <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+              <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+              <line x1="12" y1="20" x2="12.01" y2="20"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Wireless & Network Setup</h3>
+          <p class="service-desc">
+            Seamless wireless printer connectivity for desktop, laptop, mobile, and multi-user office networks. Eliminate printer offline alerts and IP conflict errors permanently.
+          </p>
+          <ul class="service-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Static IP & TCP/IP Port configuration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Direct & Cloud Print network integration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Network spooler & shared queue setup</li>
+          </ul>
+          <a href="services.html" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 3: Driver & Software Installation -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+              <line x1="6" y1="6" x2="6.01" y2="6"></line>
+              <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Driver & Software Installation</h3>
+          <p class="service-desc">
+            Clean installation of official, certified WHQL printer drivers and scanning utilities. Fix "Driver is unavailable" and "Print Spooler service terminated" errors safely.
+          </p>
+          <ul class="service-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Full Operating System & Architecture compatibility</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Corrupted registry & spooler cleaning</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Utility & scanner suite activation</li>
+          </ul>
+          <a href="services.html" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 4: Scanner & Imaging -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+              <line x1="10" y1="12" x2="14" y2="12"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Scan Not Working & OCR Fixes</h3>
+          <p class="service-desc">
+            We troubleshoot software, driver, and connectivity issues to restore full scanning, multi-page ADF feeding, and network scan routing.
+          </p>
+          <ul class="service-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> System Image Acquisition & TWAIN driver repair</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Network Scan folder & SMB permissions</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> High-res document scanning & OCR</li>
+          </ul>
+          <a href="services.html" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 5: Managed IT & AMC -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+              <line x1="9" y1="22" x2="9" y2="22.01"></line>
+              <line x1="15" y1="22" x2="15.01" y2="22.01"></line>
+              <line x1="9" y1="6" x2="9" y2="6.01"></line>
+              <line x1="15" y1="6" x2="15.01" y2="6.01"></line>
+              <line x1="9" y1="10" x2="9" y2="10.01"></line>
+              <line x1="15" y1="10" x2="15.01" y2="10.01"></line>
+              <line x1="9" y1="14" x2="9" y2="14.01"></line>
+              <line x1="15" y1="14" x2="15.01" y2="14.01"></line>
+              <line x1="9" y1="18" x2="9" y2="18.01"></line>
+              <line x1="15" y1="18" x2="15.01" y2="18.01"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Managed IT & AMC Services</h3>
+          <p class="service-desc">
+            Comprehensive Annual Maintenance Contracts (AMC) and ongoing IT management including server maintenance, network monitoring, remote support, and on-site assistance.
+          </p>
+          <ul class="service-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> 24/7 System & printer fleet health audit</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Priority response times & SLA contracts</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Scheduled preventative tune-ups</li>
+          </ul>
+          <a href="services.html" class="service-link">Learn More <span>→</span></a>
+        </div>
+
+        <!-- Service 6: Cybersecurity & Data Protection -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+          </div>
+          <h3 class="service-title">Cybersecurity & Data Protection</h3>
+          <p class="service-desc">
+            Advanced security solutions including firewall configuration, network printer access control, ransomware defense, and secure data backup to safeguard your business.
+          </p>
+          <ul class="service-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Encrypted print job protocols</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Endpoint security & virus neutralization</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Automated cloud backups</li>
+          </ul>
+          <a href="services.html" class="service-link">Learn More <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="section section-slate">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Simple 4-Step Process</div>
+        <h2 class="section-title">How We Get Your Devices Working Fast</h2>
+        <p class="section-subtitle">
+          Our streamlined diagnostic process ensures maximum uptime with minimal disruption to your daily routine.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-badge">1</div>
+          <h4 class="step-title">Initial Diagnosis</h4>
+          <p class="step-desc">Contact us via phone or online inquiry. Describe the error codes, symptoms, or connectivity issues.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-badge">2</div>
+          <h4 class="step-title">Connect with Expert</h4>
+          <p class="step-desc">A certified technician analyzes the issue via high-security remote desktop or phone consultation.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-badge">3</div>
+          <h4 class="step-title">Fix & Configuration</h4>
+          <p class="step-desc">We clean drivers, restore spoolers, reconfigure IP/Wi-Fi settings, or repair hardware glitches.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-badge">4</div>
+          <h4 class="step-title">Test & Validate</h4>
+          <p class="step-desc">We run sample test prints and verification checks to guarantee 100% stability before completion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us & Trust Section -->
+  <section class="section">
+    <div class="container why-grid">
+      <div>
+        <div class="badge badge-primary">Why Customers Trust PrinterExpert</div>
+        <h2 class="section-title">Where Reliability Meets Technical Excellence</h2>
+        <p class="section-subtitle" style="text-align: left; margin-bottom: 1.5rem;">
+          At PrinterExpert (printerexpert.site), we combine dependable service with advanced technical expertise. Our mission is simple — minimize downtime, maximize performance, and secure your printing ecosystem.
+        </p>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Fast & Reliable Response</h4>
+              <p>We understand downtime costs money. Our team ensures immediate response, accurate diagnosis, and fast resolution.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Certified & Experienced Technicians</h4>
+              <p>Our skilled professionals bring years of hands-on expertise in device repair, networking, and system maintenance.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Secure & Transparent Pricing</h4>
+              <p>We prioritize your data privacy, utilize bank-grade remote access, and provide upfront quotes with zero hidden fees.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trust-banner-card">
+        <div class="badge badge-amber" style="margin-bottom: 1rem;">24/7 EMERGENCY DESK</div>
+        <h3>Need Immediate Printer Assistance?</h3>
+        <p>
+          Don't let printer errors halt your business operations or personal work. Speak with our master technician right now.
+        </p>
+        <div style="margin-bottom: 2rem;">
+          <div style="font-size: 0.85rem; color: var(--slate-300); text-transform: uppercase;">Direct Technician Hotline</div>
+          <a href="tel:+18888047080" style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: #38bdf8; display: block;">
+            +1-888-804-7080
+          </a>
+        </div>
+        <a href="tel:+18888047080" class="btn btn-accent btn-lg btn-pulse">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Call Now for Instant Fix
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Options & Coverage Levels (Generic - No Pricing) -->
+  <section class="section section-slate" id="plans">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Guaranteed Service Levels</div>
+        <h2 class="section-title">Comprehensive Service Levels — 100% Fixed-or-No-Fee</h2>
+        <p class="section-subtitle">
+          Transparent, upfront diagnostic assessments provided before any work starts. Choose the tier that best fits your immediate issue or long-term office needs.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Tier 1 -->
+        <div class="pricing-card">
+          <h3 class="plan-name">Single Diagnostic & Fix</h3>
+          <p class="plan-desc">Best for single printer errors, offline status, or spooler glitches.</p>
+          <div class="plan-price" style="font-size: 1.4rem; color: var(--primary);">Instant Fix <span>/ single incident</span></div>
+          <div class="price-subtext">✓ 100% Fixed or No-Fee Guarantee</div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Single printer diagnostic</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Spooler & queue clearing</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Printer offline state fix</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> 7-day service warranty</li>
+          </ul>
+          <a href="tel:+18888047080" class="btn btn-outline-primary">Call for Free Estimate</a>
+        </div>
+
+        <!-- Tier 2 -->
+        <div class="pricing-card featured">
+          <div class="popular-badge">Recommended</div>
+          <h3 class="plan-name">Complete Setup & Tune</h3>
+          <p class="plan-desc">Comprehensive setup, driver updates, wireless configuration & scanner fix.</p>
+          <div class="plan-price" style="font-size: 1.4rem; color: var(--navy-900);">Complete Setup <span>/ full tune-up</span></div>
+          <div class="price-subtext">✓ Complete Performance Overhaul</div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Full WHQL driver reinstallation</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Wi-Fi & multi-device network setup</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Scanner & ADF utility configuration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile & Cloud print setup</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> 30-day extended support</li>
+          </ul>
+          <a href="tel:+18888047080" class="btn btn-primary">Request Remote Setup</a>
+        </div>
+
+        <!-- Tier 3 -->
+        <div class="pricing-card">
+          <h3 class="plan-name">Annual Care Plan (AMC)</h3>
+          <p class="plan-desc">Year-round peace of mind for home offices and small business setups.</p>
+          <div class="plan-price" style="font-size: 1.4rem; color: var(--primary);">Annual Care <span>/ unlimited support</span></div>
+          <div class="price-subtext">✓ Unlimited Remote Assistance</div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Unlimited printer & PC remote support</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Up to 4 devices covered</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Quarterly preventative tune-ups</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Priority queue response (under 15 min)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Cybersecurity & malware scan</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline-primary">Inquire for Annual Care</a>
+        </div>
+
+        <!-- Tier 4 -->
+        <div class="pricing-card">
+          <h3 class="plan-name">Business Fleet Plan</h3>
+          <p class="plan-desc">Tailored managed IT for multi-printer office fleets and commercial teams.</p>
+          <div class="plan-price" style="font-size: 1.4rem; color: var(--primary);">Fleet IT <span>/ customized coverage</span></div>
+          <div class="price-subtext">✓ Dedicated SLA & Priority Dispatch</div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Coverage for up to 15 printers/devices</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> 24/7 Proactive network monitoring</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Active Directory queue integration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Dedicated senior technician liaison</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline-primary">Speak with Specialist</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Insights / Blog Preview -->
+  <section class="section section-slate" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Knowledge Base</div>
+        <h2 class="section-title">Latest IT & Printer Troubleshooting Guides</h2>
+        <p class="section-subtitle">Expert tips and practical guides curated by our certified technicians.</p>
+      </div>
+
+      <div class="blog-grid">
+        <!-- Article 1 -->
+        <div class="blog-card">
+          <div class="blog-banner">
+            <div class="blog-banner-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Feb 14, 2026</span>
+              <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>printerexpert</span>
+            </div>
+            <h3 class="blog-title">
+              <a href="blog.html#article-1">Why Regular IT Maintenance Is Important for Small Businesses</a>
+            </h3>
+            <p class="blog-summary">
+              Discover how scheduled maintenance, driver audits, and endpoint security prevent unexpected equipment downtime and protect business cash flow.
+            </p>
+            <a href="blog.html#article-1" class="service-link">Read Full Guide <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="blog-card">
+          <div class="blog-banner">
+            <div class="blog-banner-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Feb 14, 2026</span>
+              <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>printerexpert</span>
+            </div>
+            <h3 class="blog-title">
+              <a href="blog.html#article-2">Top 7 Common Printer Problems and How to Fix Them</a>
+            </h3>
+            <p class="blog-summary">
+              A comprehensive breakdown of paper jams, ghost printing, streaks, slow Wi-Fi queues, and driver conflicts with step-by-step diagnostic actions.
+            </p>
+            <a href="blog.html#article-2" class="service-link">Read Full Guide <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="blog-card">
+          <div class="blog-banner">
+            <div class="blog-banner-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Feb 14, 2026</span>
+              <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>printerexpert</span>
+            </div>
+            <h3 class="blog-title">
+              <a href="blog.html#article-3">Why Is My Printer Showing Offline? Easy Fixes You Can Try Today</a>
+            </h3>
+            <p class="blog-summary">
+              Learn how to reset the System Print Spooler, rebind TCP/IP static ports, and bypass router firewall blocks causing phantom offline statuses.
+            </p>
+            <a href="blog.html#article-3" class="service-link">Read Full Guide <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Call CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-banner-inner">
+      <div class="cta-text">
+        <h2>Experiencing Urgent Printer or Network Failures?</h2>
+        <p>Our certified technicians are online right now to diagnose and fix your issue remotely.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:+18888047080" class="btn btn-accent btn-lg btn-pulse">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Call +1-888-804-7080
+        </a>
+        <a href="contact.html" class="btn btn-outline-white btn-lg">
+          Request Consultation
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 0.75rem;" aria-label="PrinterExpert Home">
+            <img src="images/logo-footer.png" alt="PrinterExpert" class="brand-logo-img brand-logo-footer">
+          </a>
+          <p>
+            PrinterExpert (printerexpert.site) is a dedicated technology services and device repair provider offering reliable, secure, and rapid technical support for homes, startups, and enterprises.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="tel:+18888047080" class="btn btn-accent btn-sm">Call Toll-Free</a>
+            <a href="contact.html" class="btn btn-outline-white btn-sm">Contact Desk</a>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="pricing.html">Pricing Plans</a></li>
+            <li><a href="testimonial.html">Customer Reviews</a></li>
+            <li><a href="blog.html">Troubleshooting Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div>
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#device-repair">Device & Printer Repair</a></li>
+            <li><a href="services.html#offline-fix">Printer Offline Fixes</a></li>
+            <li><a href="services.html#driver-install">Driver & Software Setup</a></li>
+            <li><a href="services.html#wireless-setup">Wireless & Network Config</a></li>
+            <li><a href="services.html#scanner-fix">Scan Not Working Issues</a></li>
+            <li><a href="services.html#managed-it">Managed IT & AMC Contracts</a></li>
+            <li><a href="services.html#cybersecurity">Cybersecurity Solutions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4 -->
+        <div>
+          <h4 class="footer-title">Contact Information</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>30 N Gould St Ste R Sheridan, WY 82801 USA</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+18888047080">+1-888-804-7080</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:support@printerexpert.site">support@printerexpert.site</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>24/7 Remote Desk & Support</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Prominent Footer Disclaimer -->
+      <div class="footer-disclaimer-wrapper">
+        <strong>Disclaimer:</strong> PrinterExpert (printerexpert.site) is an independent third-party service provider. All device descriptions, hardware models, and technical terminology on this website are used purely for general descriptive and functional identification purposes.
+      </div>
+
+      <!-- Copyright & Bottom Bar -->
+      <div class="footer-bottom">
+        <div>© Copyright 2026 | PrinterExpert (printerexpert.site) | All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms and Conditions</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick-Call Widget with sleek phone icon -->
+  <a href="tel:+18888047080" class="floating-call-widget" title="Call Technician Now">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+    <span>Call Tech: +1-888-804-7080</span>
+  </a>
+
+
+
+  <script src="js/main.js"></script>
+
+  <!-- JivoChat Live Support Widget -->
+  <script src="//code.jivosite.com/widget/xPrYyGqG4P" async></script>
+</body>
+</html>

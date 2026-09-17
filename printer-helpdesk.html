@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Printer Help Desk – 24/7 Support Assistance | PrinterExpert</title>
+  <meta name="description" content="Printer Help Desk available 24/7 for support assistance. Get immediate help with printer setup, connectivity, Wi-Fi errors, offline issues, and troubleshooting. Chat Live with our specialists 24/7.">
+  <meta name="keywords" content="Printer Help Desk, Printer Support, Printer Help, Printer Troubleshooting, Printer Technical Support, Printer Setup Help, Printer Installation Help, Printer Support 24/7, 24/7 Printer Help, Printer Customer Support, Printer Connection Help, Printer Not Printing, Printer Offline Help, Printer Error Help, Printer Setup Support">
+  <link rel="stylesheet" href="css/style.css?v=3.2">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z'/></svg>">
+  <script>
+    // Pure Direct JivoChat Trigger
+    window._wantsJivoOpen = false;
+    window.openJivoChat = function(e) {
+      if (e && typeof e.preventDefault === 'function') e.preventDefault();
+      
+      // 1. Direct call if Jivo API is ready
+      if (window.jivo_api && typeof window.jivo_api.open === 'function') {
+        try {
+          window.jivo_api.open();
+          return;
+        } catch (err) {
+          try { window.jivo_api.open({ start: 'chat' }); return; } catch (e2) {}
+        }
+      }
+
+      // 2. Click any DOM elements created by Jivo
+      try {
+        var jEl = document.getElementById('jivo_container') || 
+                  document.querySelector('jdiv[class*="label"], jdiv[class*="button"], [class*="jivo"]');
+        if (jEl && typeof jEl.click === 'function') jEl.click();
+      } catch (err) {}
+
+      // 3. Mark intent to open immediately on load
+      window._wantsJivoOpen = true;
+
+      // 4. Fast polling (every 50ms) to open the millisecond Jivo is ready
+      var attempts = 0;
+      var timer = setInterval(function() {
+        attempts++;
+        if (window.jivo_api && typeof window.jivo_api.open === 'function') {
+          try {
+            window.jivo_api.open();
+            window._wantsJivoOpen = false;
+            clearInterval(timer);
+            return;
+          } catch (err) {}
+        }
+        if (attempts >= 100) clearInterval(timer);
+      }, 50);
+    };
+
+    // Jivo Native Ready Callback
+    window.jivo_onLoadCallback = function() {
+      if (window._wantsJivoOpen && window.jivo_api && typeof window.jivo_api.open === 'function') {
+        try {
+          window.jivo_api.open();
+          window._wantsJivoOpen = false;
+        } catch (err) {}
+      }
+    };
+  </script>
+  <!-- JivoChat Live Widget -->
+  <script src="//code.jivosite.com/widget/xPrYyGqG4P" async></script>
+</head>
+<body>
+
+  <!-- Top Urgency / Live Status Ticker -->
+  <div class="top-urgency-bar">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+      <div class="top-urgency-left">
+        <span class="live-beacon"></span>
+        <span><strong>24/7 Printer Help Desk Active:</strong> Live Support Technicians Standing By</span>
+      </div>
+      <div class="top-urgency-right">
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>Avg Connect: Under 45 Seconds • 24/7 Live Chat Support</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="PrinterExpert Home">
+        <img src="images/logo.png" alt="PrinterExpert" class="brand-logo-img">
+      </a>
+
+      <div class="nav-cta">
+        <button type="button" onclick="openJivoChat(event)" class="btn btn-chat" aria-label="Start Live Chat">
+          <span class="btn-chat-live-dot"></span>
+          <svg class="btn-chat-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <span>Start Live Chat</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section (PPC & High Conversion Optimized) -->
+  <section class="helpdesk-hero">
+    <div class="container helpdesk-hero-content">
+      <div class="helpdesk-badge">
+        <span class="live-beacon" style="width: 8px; height: 8px;"></span>
+        <span>24/7 Live Support Assistance • All Brands & Models</span>
+      </div>
+
+      <h1>Printer Help Desk – 24/7 Support Assistance</h1>
+      
+      <div class="helpdesk-hero-subheadline">
+        Get Help With Printer Setup, Connectivity, Printing Errors & More.
+      </div>
+
+      <p class="helpdesk-hero-p">
+        <strong>Printer Help & Support — Get Assistance When You Need It.</strong><br>
+        Having trouble with your printer? Get help with common printer issues, setup, connectivity, printing errors, and more. Our friendly help desk is available 24/7 for prompt support assistance.
+      </p>
+
+      <div class="helpdesk-cta-row">
+        <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg btn-pulse" aria-label="Start Live Chat Now" style="padding: 1rem 2.5rem; font-size: 1.15rem;">
+          <span class="btn-chat-live-dot"></span>
+          <svg class="btn-chat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <span>Start Live Chat with Support</span>
+        </button>
+      </div>
+
+      <div class="helpdesk-hero-trust">
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Available 24/7 Nationwide</span>
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Zero Wait Time Dispatch</span>
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Windows & Mac Supported</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hardware Compatibility & Independent Notice -->
+  <section class="brand-strip">
+    <div class="container">
+      <div class="brand-strip-title">Universal Technical Assistance Across All Printer Types & Operating Systems</div>
+      <div class="brand-logos-grid">
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          LaserJet & Multi-Function
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Wireless Ink Tank Printers
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Office Workgroup Copiers
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Label & Barcode Printers
+        </div>
+        <div class="brand-pill">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Windows 11, 10 & macOS
+        </div>
+      </div>
+
+      <div class="disclaimer-box">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        <div>
+          <strong>Disclaimer:</strong> PrinterExpert (printerexpert.site) is an independent third-party technical support provider. All device classifications, hardware categories, and brand names are used strictly for descriptive compatibility and functional identification purposes.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Get Help With Your Printer (10 Core Areas) -->
+  <section class="section" id="issues">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Comprehensive Coverage</div>
+        <h2 class="section-title">Get Help With Your Printer</h2>
+        <p class="section-subtitle">
+          Our help desk can assist with a variety of common printer-related issues, setup hurdles, and technical challenges.
+        </p>
+      </div>
+
+      <div class="helpdesk-issues-grid">
+        <!-- 1 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Printer Setup & Installation</h3>
+        </div>
+
+        <!-- 2 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Printer Connection Issues</h3>
+        </div>
+
+        <!-- 3 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Wi-Fi & Network Problems</h3>
+        </div>
+
+        <!-- 4 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line><line x1="15" y1="9" x2="9" y2="15"></line></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Printer Not Printing</h3>
+        </div>
+
+        <!-- 5 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="12" cy="12" r="4"></circle></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Printing & Scanning Issues</h3>
+        </div>
+
+        <!-- 6 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Driver & Software Assistance</h3>
+        </div>
+
+        <!-- 7 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Printer Error Messages</h3>
+        </div>
+
+        <!-- 8 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Print Quality Issues</h3>
+        </div>
+
+        <!-- 9 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">Device Compatibility Assistance</h3>
+        </div>
+
+        <!-- 10 -->
+        <div class="helpdesk-issue-item">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+          </div>
+          <h3 class="helpdesk-issue-text">General Printer Troubleshooting</h3>
+        </div>
+      </div>
+
+      <!-- Mid CTA Box -->
+      <div class="helpdesk-mid-cta">
+        <h3>Need Help Now?</h3>
+        <p>Connect with our technical support team in under 60 seconds via live chat for fast resolution.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg" aria-label="Start Live Chat">
+            <span class="btn-chat-live-dot"></span>
+            <svg class="btn-chat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            <span>Start Live Chat Now</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 2: 24/7 Printer Help Desk – Support When You Need It -->
+  <section class="section section-slate">
+    <div class="container helpdesk-showcase">
+      <div>
+        <div class="badge badge-primary">24/7 Printer Help Desk</div>
+        <h2 style="font-size: 2.2rem; color: var(--navy-900); margin: 0.75rem 0 1rem; line-height: 1.25;">
+          Support When You Need It
+        </h2>
+        <p style="font-size: 1.05rem; color: var(--slate-600); line-height: 1.65; margin-bottom: 1.25rem;">
+          Printer problems can happen anytime. Our 24/7 Help Desk is available to provide general assistance and troubleshooting guidance for common printer issues.
+        </p>
+        <p style="font-size: 1.05rem; color: var(--slate-600); line-height: 1.65; margin-bottom: 2rem;">
+          Whether your printer is not responding, having connection problems, or showing an error, you can contact our support team for assistance.
+        </p>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg" aria-label="Chat With a Support Agent">
+            <span class="btn-chat-live-dot"></span>
+            <svg class="btn-chat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            <span>Chat With a Support Agent</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="helpdesk-showcase-box">
+        <h3>Fast Remote Diagnostic & Triage</h3>
+        <p>
+          Skip lengthy hold times and complicated manuals. Our certified technical agents analyze your printer symptoms and guide you step-by-step through verified resolution protocols.
+        </p>
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.75rem; display: flex; flex-direction: column; gap: 0.85rem;">
+          <li style="display: flex; align-items: center; gap: 0.65rem; font-size: 0.95rem; color: #e2e8f0;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Immediate live chat representative access
+          </li>
+          <li style="display: flex; align-items: center; gap: 0.65rem; font-size: 0.95rem; color: #e2e8f0;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Clear, non-technical troubleshooting steps
+          </li>
+          <li style="display: flex; align-items: center; gap: 0.65rem; font-size: 0.95rem; color: #e2e8f0;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Support for home, office, and wireless setups
+          </li>
+        </ul>
+        <div style="font-size: 0.825rem; color: #94a3b8; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 1rem;">
+          Live Help Desk: <a href="javascript:void(0)" onclick="openJivoChat(event)" style="color: #60a5fa; font-weight: 700;">Start Live Chat</a> • 24/7 Availability
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Having a Printer Problem? Let's Get It Working Again (5 Common Symptoms) -->
+  <section class="section" id="symptoms">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Symptom Diagnostics</div>
+        <h2 class="section-title">Having a Printer Problem? Let's Get It Working Again</h2>
+        <p class="section-subtitle">
+          You may contact our help desk for assistance with common printer symptoms:
+        </p>
+      </div>
+
+      <div class="helpdesk-symptoms-grid">
+        <!-- 1 -->
+        <div class="helpdesk-symptom-card">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          </div>
+          <h3>Printer Not Working?</h3>
+          <p>Get troubleshooting guidance for common printing problems, queue lockups, and unprinted documents.</p>
+          <a href="javascript:void(0)" onclick="openJivoChat(event)" class="helpdesk-symptom-action">
+            Chat for Support &rarr;
+          </a>
+        </div>
+
+        <!-- 2 -->
+        <div class="helpdesk-symptom-card">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line></svg>
+          </div>
+          <h3>Printer Offline?</h3>
+          <p>Get help checking printer and network connectivity, port configurations, and communication resets.</p>
+          <a href="javascript:void(0)" onclick="openJivoChat(event)" class="helpdesk-symptom-action">
+            Check Connection via Chat &rarr;
+          </a>
+        </div>
+
+        <!-- 3 -->
+        <div class="helpdesk-symptom-card">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+          </div>
+          <h3>Can't Connect Your Printer?</h3>
+          <p>Receive assistance with common Wi-Fi, wireless router, dual-band channel, and local network connection issues.</p>
+          <a href="javascript:void(0)" onclick="openJivoChat(event)" class="helpdesk-symptom-action">
+            Setup Wi-Fi via Chat &rarr;
+          </a>
+        </div>
+
+        <!-- 4 -->
+        <div class="helpdesk-symptom-card">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          </div>
+          <h3>Printer Showing an Error?</h3>
+          <p>Get guidance for understanding and troubleshooting common error codes, blinking light alerts, and driver alerts.</p>
+          <a href="javascript:void(0)" onclick="openJivoChat(event)" class="helpdesk-symptom-action">
+            Resolve Error via Chat &rarr;
+          </a>
+        </div>
+
+        <!-- 5 -->
+        <div class="helpdesk-symptom-card">
+          <div class="helpdesk-issue-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          </div>
+          <h3>Need Help With Setup?</h3>
+          <p>Get assistance with general printer setup, software downloads, unboxing configuration, and driver integration.</p>
+          <a href="javascript:void(0)" onclick="openJivoChat(event)" class="helpdesk-symptom-action">
+            Start Setup via Chat &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Why Contact Our Printer Help Desk? -->
+  <section class="section section-slate" id="why-choose">
+    <div class="container" style="max-width: 960px;">
+      <div class="helpdesk-why-box">
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <div class="badge badge-primary">Key Advantages</div>
+          <h2 class="section-title">Why Contact Our Printer Help Desk?</h2>
+          <p class="section-subtitle" style="font-size: 1.15rem; font-weight: 700; color: var(--primary);">
+            Simple. Convenient. Available 24/7.
+          </p>
+        </div>
+
+        <div class="helpdesk-checklist-grid">
+          <div class="helpdesk-check-item">
+            <div class="helpdesk-check-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>24/7 Help Desk Availability</span>
+          </div>
+
+          <div class="helpdesk-check-item">
+            <div class="helpdesk-check-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Quick Support Assistance</span>
+          </div>
+
+          <div class="helpdesk-check-item">
+            <div class="helpdesk-check-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Friendly Support Team</span>
+          </div>
+
+          <div class="helpdesk-check-item">
+            <div class="helpdesk-check-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>General Printer Troubleshooting</span>
+          </div>
+
+          <div class="helpdesk-check-item">
+            <div class="helpdesk-check-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Setup & Connectivity Assistance</span>
+          </div>
+
+          <div class="helpdesk-check-item">
+            <div class="helpdesk-check-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>24/7 Live Chat Support Assistance</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+          <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg" aria-label="Start Live Chat">
+            <span class="btn-chat-live-dot"></span>
+            <svg class="btn-chat-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            <span>Start Live Chat Now</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: How It Works (Simple 4 Steps) -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-primary">Straightforward Process</div>
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-subtitle">
+          Follow 4 simple steps to connect with our support desk and resolve your printer issues.
+        </p>
+      </div>
+
+      <div class="helpdesk-steps-grid">
+        <!-- 1 -->
+        <div class="helpdesk-step-card">
+          <div class="helpdesk-step-number">1</div>
+          <h3 class="helpdesk-step-title">Start Live Chat</h3>
+          <p class="helpdesk-step-desc">Launch our instant live chat to connect directly with our 24/7 help desk.</p>
+        </div>
+
+        <!-- 2 -->
+        <div class="helpdesk-step-card">
+          <div class="helpdesk-step-number">2</div>
+          <h3 class="helpdesk-step-title">Explain Your Issue</h3>
+          <p class="helpdesk-step-desc">Tell us about your printer problem and what symptoms you're experiencing.</p>
+        </div>
+
+        <!-- 3 -->
+        <div class="helpdesk-step-card">
+          <div class="helpdesk-step-number">3</div>
+          <h3 class="helpdesk-step-title">Get Assistance</h3>
+          <p class="helpdesk-step-desc">Our support team provides tailored troubleshooting guidance and assistance.</p>
+        </div>
+
+        <!-- 4 -->
+        <div class="helpdesk-step-card">
+          <div class="helpdesk-step-number">4</div>
+          <h3 class="helpdesk-step-title">Get Back to Printing</h3>
+          <p class="helpdesk-step-desc">Follow the recommended steps to help resolve your printer issue and resume printing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Need Printer Help? Don't Let Printer Problems Slow You Down -->
+  <section class="section section-slate" style="text-align: center;">
+    <div class="container" style="max-width: 800px;">
+      <div class="badge badge-primary">Direct Assistance</div>
+      <h2 style="font-size: 2.2rem; color: var(--navy-900); margin: 0.75rem 0 1rem;">
+        Need Printer Help? Don't Let Printer Problems Slow You Down
+      </h2>
+      <p style="font-size: 1.05rem; color: var(--slate-600); line-height: 1.6; margin-bottom: 2rem;">
+        Get in touch with our 24/7 Printer Help Desk for assistance with common printer setup, connectivity, and troubleshooting issues.
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg btn-pulse" aria-label="Start Live Chat">
+          <span class="btn-chat-live-dot"></span>
+          <svg class="btn-chat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <span>Chat With Support Now</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Quick Callback Request (Web3Forms Email Integration) -->
+  <section class="section" id="callback">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header" style="margin-bottom: 2rem;">
+        <div class="badge badge-primary">Request a Callback</div>
+        <h2 class="section-title">Prefer a Support Callback?</h2>
+        <p class="section-subtitle">
+          Leave your details below and a printer help desk specialist will contact you directly within 15 minutes.
+        </p>
+      </div>
+
+      <div style="background: var(--white); border-radius: var(--radius-xl); padding: 2.5rem; box-shadow: var(--shadow-lg); border: 1px solid var(--slate-200);">
+        <form action="https://api.web3forms.com/submit" method="POST" class="printerexpert-form smartfix-form" id="helpdeskLeadForm">
+          <input type="hidden" name="access_key" value="446c3e52-56fd-40a4-aaec-87e2ec3d92ee">
+          <input type="hidden" name="subject" value="New Printer Help Desk Lead - PrinterExpert">
+          <input type="hidden" name="from_name" value="Printer Help Desk Page">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" name="name" class="form-control" placeholder="e.g. Michael Smith" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone Number *</label>
+              <input type="tel" name="phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" name="email" class="form-control" placeholder="michael@example.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Printer Model / Brand</label>
+              <input type="text" name="printer_model" class="form-control" placeholder="e.g. Wireless All-in-One / Laser Printer" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Describe Your Printer Issue *</label>
+            <textarea name="message" class="form-control" rows="3" placeholder="Please describe what happens when you try to print, error messages, or connectivity issues..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            Submit Request & Connect With Help Desk
+          </button>
+          <p style="font-size: 0.775rem; color: var(--slate-500); text-align: center; margin-top: 0.75rem; margin-bottom: 0;">
+            Your information is confidential and strictly used for technical assistance. For immediate support, <a href="javascript:void(0)" onclick="openJivoChat(event)" style="color: var(--primary); font-weight: 700;">Start Live Chat</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: FAQ (Frequently Asked Questions) -->
+  <section class="section section-slate" id="faq">
+    <div class="container" style="max-width: 860px;">
+      <div class="section-header">
+        <div class="badge badge-primary">Clear Answers</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">
+          Common questions regarding our 24/7 Printer Help Desk services and support options.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <!-- Q1 -->
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>What printer problems can you help with?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer" style="max-height: 200px;">
+            We provide general assistance for common printer setup, connectivity, printing, scanning, driver, and troubleshooting issues across all major device categories.
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is printer support available 24/7?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Our help desk is available 24/7 for support assistance. You can reach our team anytime day or night.
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I contact the help desk by chat?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. You can use the Chat option to connect with a support representative directly in your browser.
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How fast can I get support via live chat?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Our live chat representatives are online 24/7 with an average connect time under 45 seconds. Simply click any Live Chat button to get connected immediately.
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can you help with printer setup?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. Our team can provide general guidance for printer setup, Wi-Fi pairing, driver installation, and initial configuration.
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can you help if my printer is offline?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. We can provide general troubleshooting guidance for common printer connectivity, port configuration, and offline issues.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: Strong CTA Section -->
+  <section class="cta-banner">
+    <div class="container cta-banner-inner">
+      <div class="cta-text">
+        <h2>Printer Not Working? We're Here to Help.</h2>
+        <p>Get 24/7 Help Desk Assistance Today. Fast, friendly, and reliable guidance.</p>
+        <p style="font-size: 0.8rem; color: #94a3b8; margin-top: 0.5rem;">
+          Support availability may vary. Assistance is subject to your device, printer model, and issue.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-lg btn-pulse" aria-label="Chat Now">
+          <span class="btn-chat-live-dot"></span>
+          <svg class="btn-chat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <span>CHAT LIVE WITH AN EXPERT</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 0.75rem;" aria-label="PrinterExpert Home">
+            <img src="images/logo-footer.png" alt="PrinterExpert" class="brand-logo-img brand-logo-footer">
+          </a>
+          <p>
+            PrinterExpert (printerexpert.site) is an independent technology support provider offering reliable, secure, and prompt printer troubleshooting assistance nationwide.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <button type="button" onclick="openJivoChat(event)" class="btn btn-chat btn-sm" aria-label="Start Live Chat">
+              <span class="btn-chat-live-dot"></span>
+              <span>Live Chat</span>
+            </button>
+            <a href="contact.html" class="btn btn-outline-white btn-sm">Contact Desk</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Help Desk Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="helpdesk.html">Printer Help Desk</a></li>
+            <li><a href="printerhelp.html">Rapid Remote Fix</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Common Assistance</h4>
+          <ul class="footer-links">
+            <li><a href="helpdesk.html#issues">Printer Setup & Install</a></li>
+            <li><a href="helpdesk.html#symptoms">Printer Offline Assistance</a></li>
+            <li><a href="helpdesk.html#issues">Wi-Fi Connection Help</a></li>
+            <li><a href="helpdesk.html#issues">Driver & Software Setup</a></li>
+            <li><a href="helpdesk.html#issues">Error Code Troubleshooting</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">24/7 Contact Desk</h4>
+          <ul class="footer-links">
+            <li><strong>Live Chat:</strong> <a href="javascript:void(0)" onclick="openJivoChat(event)">Start 24/7 Chat</a></li>
+            <li><strong>Live Support:</strong> 24/7 Nationwide</li>
+            <li><strong>Website:</strong> printerexpert.site</li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 PrinterExpert. All Rights Reserved. Independent Third-Party Technical Support Provider.</p>
+        <p style="font-size: 0.75rem; color: var(--slate-500); margin-top: 0.25rem;">
+          Disclaimer: PrinterExpert is an independent service provider. Brand names, logos, and trademarks are used strictly for informational identification and compatibility guidance.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js?v=3.2"></script>
+  <!-- JivoChat Integration -->
+  <script src="//code.jivosite.com/widget/xPrYyGqG4P" async></script>
+</body>
+</html>
